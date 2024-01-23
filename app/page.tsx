@@ -6,7 +6,9 @@ import "tailwindcss/tailwind.css";
 interface Pokemon {
   id: string;
   name: string;
-  images: string;
+  images: {
+    small: string;
+  };
   cardmarket: {
     prices: {
       averageSellPrice: string;
